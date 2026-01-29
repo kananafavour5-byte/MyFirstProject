@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 201, 220);
+}
+
+h1 {
+    font-weight: bold;
+}
+#gallery ul {
+    list-style: decimal;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#gallery ul li img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#bio {
+    text-align: center;
+    margin: 20px;
+}
+
+#bio img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#contact form {
+    display: block;
+    text-align: left;
+}
+#contact input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+}
+#contact button {
+    cursor: pointer;
+    background-color: rgb(45, 26, 1);
+    color: azure;
+}
+#contact button :hover {
+    background-color: grey;
+}
+footer {
+    background-color: rgb(59, 1, 59);
+    color: azure;
+    text-align: center;
+    padding: 1cm;
+    margin-top: 20px;
+}
